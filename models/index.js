@@ -18,6 +18,7 @@ Product.belongsToMany(Tag, { through: ProductTag });
 // Tags belongToMany Products (through ProductTag)
 Tag.belongsToMany(Product, { through: ProductTag });
 
+// We package our four models and export them as an object so we can import them together and use their proper names
 module.exports = {
   Product,
   Category,
