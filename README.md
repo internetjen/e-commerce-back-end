@@ -1,7 +1,9 @@
 # E-Commerce Back-End
 
   ## Description
-  This project is the builds a back end for an e-commerce site using: Express.js API, Sequelize, a MySQL database.
+  This project builds a back end for an e-commerce site using: Express.js API, Sequelize, a MySQL database.
+
+  The application allows its user to manage an e-commerce database. The user will be able to view, edit, and delete any categories, products, or tags. 
 
   ## Table of Contents
   * [Prerequisites](#prerequisites)
@@ -13,40 +15,30 @@
   ## Getting Started
 
   ### Prerequisites
-  * In order to run the app, you'll need to have [Node.js](https://nodejs.org/en/download/) and [npm](https://docs.npmjs.com/about-npm) installed on your local machine.
+  * In order to run the app, you'll need to have [Node.js](https://nodejs.org/en/download/) and [npm](https://docs.npmjs.com/about-npm) installed on your local machine. 
 
   ### Installing
   * Clone the repository to your local machine.
   * Open the terminal and navigate to the project directory.
   * Run `npm install` to install all the required packages.
-  * Run the app by typing `node app.js` or `npm start` in the terminal.
+  * Add your database name, MySQL username, and MySQL password to an environment variable to connect to a database using Sequelize.
+  * Connect to MySql server and `source db/schema.sql`
+  * Seed your database by typing `npm run seed` in the terminal.
+  * Start server by typing `node app.js` or `npm start` in the terminal.
 
   ## Usage
 
   ### App Functionality
-  * Running the app prompts user with options on what to do next: 
 
+  Using [Insomnia core](https://insomnia.rest/download), test various routes.
 
-  * View All Departments - displays a table of all departments with their id.
-  
+  * Open API GET routes for categories, products, and tags to display the data for each of these routes in a formatted JSON.
 
-  * View All Roles - displays a table of all roles with the job title, role id, the department that role belongs to, and the salary.
+  * Test API POST routes by creating new data in database.
 
+  * Test API PUT routes by editing existing data in database.
 
-  * View All Employees - displays a table of all employees with their ids, first names, last names, job titles, departments, salaries, and managers that the employees report to.
-  
-
-  * Add A Department - allows you to add a new department.
-  
-
-  * Add A Role - allows you to add a new role.
-
-
-  * Add An Employee - allows you to add a new employee.
-
-
-  * Update An Employee Role - allows you to update the role of an employee.
-
+  * Test API DELETE routes by deleting existing data in database.
 
   ### Walk-through Video
   To see all of these in action, take a look at this video.
