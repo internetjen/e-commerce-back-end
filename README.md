@@ -42,11 +42,8 @@
 
   ### Walk-through Video
   To see all of these in action, take a look at this video.
-  ![App Walk-through]https://user-images.githubusercontent.com/108141392/218563259-b35555e6-5a06-47f0-97f5-477601abeb66.mp4
-
-
-
-
+  
+  [App Walk-through](https://user-images.githubusercontent.com/108141392/218563259-b35555e6-5a06-47f0-97f5-477601abeb66.mp4)
 
   ## License
   N/A
